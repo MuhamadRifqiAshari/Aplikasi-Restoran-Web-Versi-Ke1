@@ -11,12 +11,10 @@ Aplikasi Restoran Web adalah sebuah aplikasi berbasis web yang dibuat untuk memb
 |---------|--------------|
 | Nama    | MUHAMAD RIFQI ASHARI |
 | Sekolah | SMK PRESTASI PRIMA |
-| Jurusan | Rekayasa Perangkat Lunak |
+| Jurusan | REKAYASA PERANGKAT LUNAK |
 
  
 ## Ringkasan
-
-Web sistem ini adalah Web sistem CRUD sederhana untuk sebuah restoran. Web sistem menggunakan Framework Laravel.
 
 Terdapat 3 level untuk pengguna:
 - Level 1: Menejer
