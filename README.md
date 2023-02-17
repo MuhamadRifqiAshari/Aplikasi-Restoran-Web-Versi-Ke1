@@ -34,3 +34,12 @@ Terdapat 3 level untuk pengguna:
 
 <p>Tampilan Contact</p>
 <img src="https://github.com/MuhamadRifqiAshari/Aplikasi-Restoran-Web/blob/main/Dokumentasi/Tampilan%20Contact.png">
+
+## ERD DAN FLOWCHART RESTORAN WEB
+
+<p>TAMPILAN ERD</p>
+<img src="https://github.com/MuhamadRifqiAshari/Aplikasi-Restoran-Web/blob/main/ERD%20dan%20FLOWCHART/ERD.png">
+
+<p>TAMPILAN FLOWCHART</p>
+<img src="https://github.com/MuhamadRifqiAshari/Aplikasi-Restoran-Web/blob/main/ERD%20dan%20FLOWCHART/FLOWCHART.png">
+
