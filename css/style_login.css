@@ -1,0 +1,70 @@
+.kotak{
+	position: relative;
+	top:150px;
+	width: 300px;
+	margin: 0 auto;
+	height: 220px;
+	border: 1px solid rgba(255,255,255,.4);
+	box-shadow: 4px 4px 5px black;
+}
+.form-signin, .copy {
+	position: relative;
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 15px;
+}
+.copy{text-align:right;top:-25px;font-size:12px;margin-right: 20px;}
+.footer{
+	position: fixed;
+	background-color: #b15601;
+	color:white;
+	height: 40px;
+	bottom: 0px;
+	width: 100%;
+	left: 0;
+	right: 0;
+	line-height:40px;
+	text-align: center;
+	z-index: 9;
+}
+.input-group{padding-bottom: 5px;}
+th{text-align: center;background-color:darkblue;color: white;}
+td{font-size: 14px;height: 2px;}
+.navbar{min-height: 30px;background-color: #1E90FF!important;font-size: 20px;font-family: arial;}
+span.lebar{width: 80px;}
+.navbar-nav:hover{cursor: pointer;}
+a,a:hover{text-decoration: none;}
+.judul_buku:hover{cursor: pointer;}
+.cariDetailBuku{border: 1px solid rgba(255,255,255,.4)!important;box-shadow: 4px 4px 7px black!important;top: 100px;
+}
+.overlay1{
+	position: fixed;
+	width: 0;
+	height: 0;
+	top: 0;
+	left: 0;
+	right: 0
+	bottom:0;
+	background: rgba(50,50,200,.4);	
+	z-index: 9;
+}
+.alertShow{
+	display: none;
+	position: absolute;
+	width:350px;
+	top:100px;
+	left: 0;
+	right:0;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 9;
+}
+.close.tutup:hover,
+.close.confirmClose:hover{
+	cursor: pointer;font-size: 48px;line-height: 20px;}
+.close.confirmClose:hover{cursor: pointer;font-size: 48px;line-height: 20px;}
+.card-title.sukses{transform:scale(0);transition: .5s; animation: sukses 3s infinite;}
+@keyframes sukses{
+	0% {transform: scale(0);}
+	100% {transform: scale(1);}
+}

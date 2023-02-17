@@ -1,0 +1,502 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*styleku*/
+html {
+  position: relative;
+}
+
+body {
+  margin-bottom: 60px;
+  /* margin-top: 30px; */
+}
+
+.jumbotron {
+  height: 100vh;
+  background-image: url(../img/back-jumbotron.jpg);
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 0 -200px;
+  -webkit-column-rule: #eaeaea;
+  -moz-column-rule: #eaeaea;
+  -o-column-rule: #eaeaea;
+  column-rule: #eaeaea;
+  color: white;
+  overflow: hidden;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.jumbotron img {
+  margin-top: 50px;
+  width: 180px;
+  height: 180px;
+  border: 5px solid #eaeaea;
+  -webkit-box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+nav.navbar.sticky-top.navbar-expand-lg.shadow {
+  background-color: Burlywood;
+}
+
+.page-scroll {
+  color: black !important;
+  padding-right: 20px;
+  line-height: 32px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.page-scroll:hover,
+#userDropdown:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1.textWarning {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  /* text-shadow: 4px 1px white; */
+  text-shadow: 3px 3px 3px #000, 3px 3px 5px white;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+p.kopi {
+  margin-top: 5px;
+  font-size: 24px;
+  color: white !important;
+  text-shadow: 3px 3px 3px #000, 3px 3px 3px white;
+}
+
+hr.hr {
+  border: 0;
+  height: 4px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  width: 30%;
+  margin-top: 3px;
+}
+
+.row p {
+  font-size: 18px;
+  text-align: left;
+}
+
+section.about {
+  opacity: 0.5;
+  height: 100vh;
+  background-image: url(../img/backcofee-min.jpg);
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 25px;
+  min-height: 570px;
+}
+
+.pKiri,
+.pKanan {
+  opacity: 0;
+  font-weight: bold;
+  -webkit-transform: translate(-50px, 0) rotate(120deg);
+  -ms-transform: translate(-50px, 0) rotate(120deg);
+  -o-transform: translate(-50px, 0) rotate(120deg);
+  transform: translate(-50px, 0) rotate(120deg);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.pKanan {
+  -webkit-transform: translate(50px, 0) rotate(-120deg);
+  -ms-transform: translate(50px, 0) rotate(-120deg);
+  -o-transform: translate(50px, 0) rotate(-120deg);
+  transform: translate(50px, 0) rotate(-120deg);
+}
+
+.pKiri.pMuncul,
+.pKanan.pMuncul {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+section.portfolio {
+  padding-top: 25px;
+
+  background-color: rgba(235, 223, 223, 0.4);
+  min-height: 700px;
+}
+
+.portfolio .gambar .img-responsive {
+  opacity: 0;
+}
+
+/*.thumbnail.muncul harus digabung artinya class thumbnail dan class muncul,
+bukan class terpisah*/
+.portfolio .gambar.muncul .img-responsive {
+  opacity: 1;
+}
+
+/*@media (max-width: @screen-xs-max) {}
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {}
+@media (min-width: @screen-lg-min) {}
+*/
+
+.portfolio img {
+  width: 100%;
+  height: 280px !important;
+  border: 5px solid white;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+  margin-bottom: 20px;
+}
+.portfolio img.imgSold {
+  width: 50%;
+  height: 100px !important;
+  box-shadow: none;
+  border: none;
+}
+
+.portfolio span {
+  position: absolute;
+  display: block;
+  top: 0px;
+  height: 280px !important;
+  text-shadow: 1px 1px 1px #ddd;
+  opacity: 0;
+  -webkit-transform: scale(0) rotate(0);
+  -ms-transform: scale(0) rotate(0);
+  -o-transform: scale(0) rotate(0);
+  transform: scale(0) rotate(0);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.portfolio div.menuNama {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 55px;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0;
+}
+.portfolio div.menuHarga {
+  position: absolute;
+  text-align: center;
+  bottom: 30px;
+  left: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0;
+}
+.portfolio div.soldOut {
+  position: absolute;
+  top: 88px;
+  text-align: center;
+  opacity: 0;
+  width: 90%;
+}
+
+.btn.pesanMenu {
+  position: absolute;
+  top: 120px;
+  left: 41%;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0;
+  width: 15%;
+  padding: 2px;
+  margin: 2px;
+}
+
+section.contact {
+  position: relative;
+  padding-top: 25px;
+  min-height: 580px;
+  background-color: rgba(235, 223, 223, 0.7);
+  margin-bottom: -20px;
+}
+.formContact {
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+@media screen and (max-width: 380px) {
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
+  .portfolio span {
+    width: 90%;
+    height: 90%;
+    line-height: 250px;
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .portfolio span {
+    width: 88%;
+    height: 88%;
+    line-height: 200px;
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio span {
+    width: 84%;
+    height: 84%;
+    line-height: 150px;
+  }
+}
+@media screen and (min-width: 676px) and (max-width: 767px) {
+  .portfolio span {
+    width: 94.5%;
+    height: 98%;
+    line-height: 500px;
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 506px) and (max-width: 675px) {
+  .portfolio span {
+    width: 94%;
+    height: 98%;
+    line-height: 500px;
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 465px) and (max-width: 505px) {
+  .portfolio span {
+    width: 92%;
+    height: 97%;
+    line-height: 300px;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 465px) {
+  .portfolio span {
+    width: 91%;
+    height: 97%;
+    line-height: 250px;
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 387px) and (max-width: 399px) {
+  .portfolio span {
+    width: 89%;
+    height: 96%;
+    line-height: 250px;
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 383px) and (max-width: 386px) {
+  .portfolio span {
+    width: 89%;
+    height: 96%;
+    line-height: 200px;
+  }
+}
+@media screen and (max-width: 382px) {
+  .portfolio span {
+    width: 89%;
+    height: 96%;
+    line-height: 200px;
+  }
+}
+
+.portfolio a:hover span {
+  opacity: 1;
+  -webkit-transform: scale(1) rotate(360deg);
+  -ms-transform: scale(1) rotate(360deg);
+  -o-transform: scale(1) rotate(360deg);
+  transform: scale(1) rotate(360deg);
+  background-color: rgba(200, 200, 200, 0.6);
+  margin: 1px;
+  height: 90%;
+}
+.portfolio a:hover div {
+  opacity: 1;
+}
+.portfolio a:hover .btn.pesanMenu {
+  opacity: 1;
+}
+
+form .form-group .form-control {
+  margin-bottom: 10px;
+}
+
+footer {
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: Burlywood;
+  overflow: hidden;
+}
+p.footer {
+  margin-top: -10px;
+  color: black;
+  font-weight: bold;
+}
+
+footer .container p {
+  font-size: 0.9em;
+  padding: 25px;
+  text-align: center;
+}
+
+.qtyPesan {
+  position: absolute;
+  margin-left: -3px;
+  margin-top: -1px;
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
