@@ -20,7 +20,7 @@ Terdapat 3 level untuk pengguna:
 - Level 1: Menejer
 - Level 2: Admin
 - Lever 3: Kasir
-- Lever 3: Customer
+- Lever 4: Customer
 
 <h3>Preview Aplikasi Aplikasi Restoran Web</h3>
 <p>Tampilan Aplikasi Restoran</p>
